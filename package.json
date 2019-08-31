@@ -1,0 +1,20 @@
+{
+  "name": "typescript-lambda-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'"
+  },
+  "author": "Milosz Piglas",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.7",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/jest": "^24.0.18",
+    "aws-sdk": "^2.286.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  }
+}
