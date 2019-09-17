@@ -9,7 +9,8 @@
         "no-magic-numbers": true,
         "curly": true,
         "class-name": true,
-        "quotemark": [true, "single"]
+        "quotemark": [true, "single"],
+        "trailing-comma": false
     },
     "rulesDirectory": []
 }
