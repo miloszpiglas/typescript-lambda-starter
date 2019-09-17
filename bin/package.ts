@@ -11,7 +11,7 @@ const main = () => {
 
     archive.pipe(output);
     archive.directory(resolve(__dirname + '/../build'), false);
-    archive.directory(resolve(__dirname + '/../node_modules'), 'node_modules');
+    archive.directory(resolve(__dirname + '/../app/node_modules'), 'node_modules');
     archive.finalize();
 };
 main();

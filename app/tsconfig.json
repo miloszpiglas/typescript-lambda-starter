@@ -9,11 +9,10 @@
         "lib": [ "es6"]
     },
     "include": [
-        "app/src/**/*"
+        "src/**/*"
     ],
     "exclude": [
-        "app/node_modules",
         "node_modules",
-        "app/**/*.spec.ts"
+        "**/*.spec.ts"
     ]
 }
